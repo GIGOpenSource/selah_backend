@@ -1,0 +1,21 @@
+{
+  "exported_at": "2026-08-09T21:41:36.073458Z",
+  "app": "selah",
+  "scope": {
+    "language": "en",
+    "platform": "",
+    "app_key": "selah"
+  },
+  "app_config_revision": "2026-08-09T21:39:52.404095Z",
+  "welcome_version": 3,
+  "onboarding_revision": "2026-08-09T21:40:20.265243Z",
+  "onboarding_count": 16,
+  "interstitial_versions": {
+    "personalize_intro": 1,
+    "prefs_intro": 2,
+    "value_edu": 2,
+    "devotion_custom": 2,
+    "push_nudge": 2,
+    "trial_intro": 1
+  }
+}

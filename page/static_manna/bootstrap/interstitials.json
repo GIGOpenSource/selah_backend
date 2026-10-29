@@ -1,0 +1,56 @@
+{
+  "personalize_intro": {
+    "id": 16,
+    "kind": "personalize_intro",
+    "title": "Tell us a bit about your Bible reading habits",
+    "subtitle": "",
+    "cta_text": "Continue",
+    "image_url": "",
+    "version": 2
+  },
+  "prefs_intro": {
+    "id": 17,
+    "kind": "prefs_intro",
+    "title": "Choose how Manna reminds you of daily verses",
+    "subtitle": "",
+    "cta_text": "Continue",
+    "image_url": "",
+    "version": 2
+  },
+  "value_edu": {
+    "id": 20,
+    "kind": "value_edu",
+    "title": "Quizzes, stories, and badges help Scripture stick",
+    "subtitle": "",
+    "cta_text": "Continue",
+    "image_url": "",
+    "version": 2
+  },
+  "devotion_custom": {
+    "id": 19,
+    "kind": "devotion_custom",
+    "title": "Walk devotion paths written for your season",
+    "subtitle": "",
+    "cta_text": "Continue",
+    "image_url": "",
+    "version": 2
+  },
+  "push_nudge": {
+    "id": 18,
+    "kind": "push_nudge",
+    "title": "Stay close to today's Word",
+    "subtitle": "Enable notifications for daily Scripture",
+    "cta_text": "Go to settings",
+    "image_url": "",
+    "version": 2
+  },
+  "trial_intro": {
+    "id": 21,
+    "kind": "trial_intro",
+    "title": "Try 7 days of Manna Premium — free for you",
+    "subtitle": "",
+    "cta_text": "Start free week",
+    "image_url": "",
+    "version": 2
+  }
+}

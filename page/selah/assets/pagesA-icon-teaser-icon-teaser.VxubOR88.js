@@ -1,0 +1,1 @@
+import{aB as s,aM as o,c as a,l as e,j as r}from"./index-Drt4xX5z.js";const n={__name:"icon-teaser",setup:n=>(s(s=>{const a="profile"===(null==s?void 0:s.from)?"?from=profile":"";o({url:`/pagesA/icons/icons${a}`})}),(s,o)=>{const n=r;return e(),a(n)})};export{n as default};

@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 59">
+<g id="Rectangle 159">
+<rect width="36" height="36" rx="12" fill="#010101" fill-opacity="0.05"/>
+<rect x="0.25" y="0.25" width="35.5" height="35.5" rx="11.75" stroke="#010101" stroke-opacity="0.05" stroke-width="0.5"/>
+</g>
+<path id="Vector 11" d="M11 11L25 25" stroke="#191919" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 12" d="M11 25L25 11" stroke="#191919" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

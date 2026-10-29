@@ -1,0 +1,1 @@
+function t(t=600){let n=0;return{locked:()=>Date.now()<n,reset(){n=0},run(e){const o=Date.now();if(!(o<n))return n=o+t,"function"==typeof e?e():void 0}}}async function n(t,n){const e=n&&n.busy,o=n&&n.cooldownMs||400;if(e&&!e.value){e.value=!0;try{return await t()}finally{setTimeout(()=>{try{e.value=!1}catch(t){}},o)}}}export{t as c,n as r};

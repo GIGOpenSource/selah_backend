@@ -1,0 +1,18 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 95">
+<g id="Rectangle 160">
+</g>
+<g id="Ellipse 47">
+<circle cx="18" cy="18" r="15" fill="url(#paint0_linear_0_4)"/>
+<circle cx="18" cy="18" r="14.75" stroke="#191919" stroke-opacity="0.05" stroke-width="0.5"/>
+</g>
+<path id="Vector 90" d="M21 24H15C13.8954 24 13 23.1046 13 22V19C13 17.8954 13.8954 17 15 17H21C22.1046 17 23 17.8954 23 19V22C23 23.1046 22.1046 24 21 24Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector 91" d="M15 17V14C15 12.3431 16.3431 11 18 11C19.6569 11 21 12.3431 21 14" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_4" x1="18" y1="3" x2="18" y2="33" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF3D3"/>
+<stop offset="1" stop-color="#A2AAFF"/>
+</linearGradient>
+</defs>
+</svg>

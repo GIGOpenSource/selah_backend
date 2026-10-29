@@ -1,0 +1,5 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" rx="16" fill="black" fill-opacity="0.3"/>
+  <path d="M21.6 11.2A6.4 6.4 0 1 0 22.2 20" stroke="white" stroke-width="1.4" stroke-linecap="round"/>
+  <path d="M18.6 9.4H22.4V13.2" stroke="white" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

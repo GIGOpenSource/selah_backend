@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mask group">
+<mask id="mask0_0_35" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<rect id="Rectangle 117" width="24" height="24" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_0_35)">
+<path id="Vector 54" d="M10.9999 17.5C12.1665 16.1667 12 6.5 12 6.5C12 6 11.6999 5 10.4999 5C9.29984 5 7.49978 10.1667 6.49979 12.5C6.45991 13.0584 3.50006 13.5 3.5 15C3.49994 16.5 3.84728 17.8469 4.5 18.5C4.89977 18.9 9.83319 18.8333 10.9999 17.5Z" fill="white"/>
+<path id="Subtract" d="M14.3082 5C15.5082 5 17.3082 10.1666 18.3082 12.5C18.3481 13.0584 21.3081 13.5 21.3082 15C21.3083 16.5 20.9609 17.8469 20.3082 18.5C19.9083 18.9 14.9748 18.8333 13.8082 17.5C12.6418 16.1665 12.8081 6.50272 12.8082 6.5C12.8082 6.00003 13.1083 5.0001 14.3082 5Z" fill="white"/>
+</g>
+</g>
+</svg>

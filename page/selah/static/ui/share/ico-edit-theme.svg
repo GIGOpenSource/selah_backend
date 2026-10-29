@@ -1,0 +1,14 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="26.1818" height="26.1818" viewBox="0 0 26.1818 26.1818" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mask group">
+<g id="Rectangle 10">
+</g>
+<mask id="mask0_0_40" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="27" height="27">
+<rect id="Rectangle 11" width="26.1818" height="26.1818" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_0_40)">
+<rect id="Rectangle 62" x="2.75" y="2.75" width="16.5" height="7.5" rx="2.25" stroke="#191919" stroke-width="1.5"/>
+<rect id="Rectangle 63" x="10.75" y="16.75" width="4.5" height="6.5" rx="2.25" stroke="#191919" stroke-width="1.5"/>
+<path id="Vector 7" d="M20 6H21C22.1046 6 23 6.89543 23 8V11C23 12.1046 22.1046 13 21 13H15C13.8954 13 13 13.8954 13 15L13 17" stroke="#191919" stroke-width="1.5"/>
+</g>
+</g>
+</svg>

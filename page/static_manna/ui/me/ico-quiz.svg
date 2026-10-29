@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mask group">
+<mask id="mask0_0_49" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="36" height="36">
+<path id="Rectangle 124" d="M0 0H36V36H0V0Z" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_0_49)">
+<circle id="flame-glow" opacity="0.3" cx="18" cy="14" r="12" fill="#FAD02C"/>
+<path id="Rectangle 126" d="M10 14C10 12.8954 10.8954 12 12 12H24C25.1046 12 26 12.8954 26 14V28C26 29.1046 25.1046 30 24 30H12C10.8954 30 10 29.1046 10 28V14Z" fill="#E6A18B"/>
+<rect id="Rectangle 127" x="13" y="10" width="10" height="4" rx="2" fill="#FAD02C"/>
+</g>
+</g>
+</svg>

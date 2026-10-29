@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ico/TabBar/me" opacity="0.5">
+<mask id="mask0_0_29" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32">
+<rect id="Rectangle 111" width="32" height="32" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_0_29)">
+<path id="Ellipse 8" d="M8 25.9976C10.2517 27.6174 13.0144 28.5715 16 28.5715C18.9856 28.5715 21.7483 27.6174 24 25.9976" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+<path id="Rectangle 113" d="M16.0004 4.17858C21.2667 4.1788 25.5356 8.44842 25.5356 13.7147C25.5354 18.9808 21.2665 23.2496 16.0004 23.2499C10.7341 23.2499 6.46453 18.9809 6.4643 13.7147C6.4643 8.44828 10.734 4.17858 16.0004 4.17858Z" stroke="white" stroke-width="1.5"/>
+<path id="Ellipse 9" d="M12.9762 17.1428C13.7821 17.8541 14.8407 18.2857 16 18.2857C17.1594 18.2857 18.218 17.8541 19.0238 17.1428" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+</g>
+</svg>

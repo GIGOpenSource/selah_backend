@@ -1,0 +1,13 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mask group">
+<g id="Rectangle 10">
+</g>
+<mask id="mask0_0_41" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+<rect id="Rectangle 11" width="24" height="24" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_0_41)">
+<path id="Rectangle 8" d="M11.8232 2.2373C11.9209 2.13977 12.0791 2.13977 12.1768 2.2373L16.8193 6.87988L17.2783 6.69629L20.9072 5.24512C21.0713 5.17949 21.2497 5.29995 21.25 5.47656V16C21.25 18.8995 18.8995 21.25 16 21.25H8C5.10051 21.25 2.75 18.8995 2.75 16V5.47656C2.75032 5.29995 2.9287 5.17949 3.09277 5.24512L6.72168 6.69629L7.18066 6.87988L11.8232 2.2373Z" stroke="#191919" stroke-width="1.5"/>
+<path id="Rectangle 9" d="M7.49768 12.4977C7.1246 12.1246 7.50881 11.5029 8.00934 11.6698L11.8419 12.9473C11.9445 12.9815 12.0555 12.9815 12.1581 12.9473L15.9907 11.6698C16.4912 11.5029 16.8754 12.1246 16.5023 12.4977L12.3536 16.6464C12.1583 16.8417 11.8417 16.8417 11.6464 16.6464L7.49768 12.4977Z" fill="#191919"/>
+</g>
+</g>
+</svg>

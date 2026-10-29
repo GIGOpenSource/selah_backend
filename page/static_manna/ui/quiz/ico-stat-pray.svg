@@ -1,0 +1,15 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mask group">
+<mask id="mask0_0_52" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="36" height="36">
+<path id="Rectangle 124" d="M0 0H36V36H0V0Z" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_0_52)">
+<circle id="flame-glow" opacity="0.3" cx="18" cy="14" r="12" fill="#FAD02C"/>
+<path id="Vector 54" d="M16.9999 32.5C18.1665 31.1667 18 21.5 18 21.5C18 21 17.6999 20 16.4999 20C15.2998 20 13.4998 25.1667 12.4998 27.5C12.4599 28.0584 9.50006 28.5 9.5 30C9.49994 31.5 9.84728 32.8469 10.5 33.5C10.8998 33.9 15.8332 33.8333 16.9999 32.5Z" fill="#E6A18B"/>
+<path id="Vector 56" d="M19.8083 32.5C18.6416 31.1667 18.8081 21.5 18.8081 21.5C18.8081 21 19.1082 20 20.3083 20C21.5083 20 23.3084 25.1667 24.3083 27.5C24.3482 28.0584 27.3081 28.5 27.3081 30C27.3082 31.5 26.9609 32.8469 26.3081 33.5C25.9084 33.9 20.975 33.8333 19.8083 32.5Z" fill="#E6A18B"/>
+<path id="Vector 63" d="M18 10V14" stroke="#FAD02C" stroke-width="2" stroke-linecap="round"/>
+<path id="Vector 64" d="M25.0713 13L22 15.5627" stroke="#FAD02C" stroke-width="2" stroke-linecap="round"/>
+<path id="Vector 65" d="M11 13L14.0713 15.5627" stroke="#FAD02C" stroke-width="2" stroke-linecap="round"/>
+</g>
+</g>
+</svg>

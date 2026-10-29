@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Mask group">
+<mask id="mask0_bible_bm_on" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32">
+<rect width="32" height="32" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_bible_bm_on)">
+<path d="M12 9.75H20C21.2426 9.75 22.25 10.7574 22.25 12V23.2764C22.25 23.4683 22.0426 23.5893 21.876 23.4941L16.8682 20.6328C16.3302 20.3254 15.6698 20.3254 15.1318 20.6328L10.124 23.4941C9.95738 23.5893 9.75 23.4683 9.75 23.2764V12C9.75 10.7574 10.7574 9.75 12 9.75Z" fill="#212121"/>
+</g>
+</g>
+</svg>

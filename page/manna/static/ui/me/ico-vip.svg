@@ -1,0 +1,5 @@
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Me menu VIP: line style aligned with calendar/settings -->
+  <path d="M13.82 3.24c.1-.1.26-.1.36 0l5.2 5.2.52-.21 4.07-1.63c.18-.07.39.06.39.26V17c0 3.31-2.69 6-6 6H9.64c-3.31 0-6-2.69-6-6V7.86c0-.2.2-.33.39-.26l4.07 1.63.52.21 5.2-5.2z" stroke="#212121" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M9.2 14.1c-.3-.3.01-.8.42-.66l3.2 1.07c.09.03.18.03.27 0l3.2-1.07c.41-.14.72.36.42.66l-3.46 3.46c-.16.16-.43.16-.59 0L9.2 14.1z" fill="#212121"/>
+</svg>

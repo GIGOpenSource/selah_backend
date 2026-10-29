@@ -1,0 +1,8 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g>
+<rect width="32" height="32" rx="16" fill="black" fill-opacity="0.3"/>
+<path d="M21.6 18.2C20.2 21.2 16.95 23.05 13.45 22.3C9.95 21.55 7.55 18.5 7.55 14.9C7.55 11.85 9.4 9.2 12.2 8.05C10.85 12.35 12.8 16.95 16.95 18.6C18.45 19.2 20.05 19.3 21.6 18.2Z" fill="white"/>
+<path d="M21.1 8.4L21.6 10.2L23.4 10.7L21.6 11.2L21.1 13L20.6 11.2L18.8 10.7L20.6 10.2L21.1 8.4Z" fill="#FAD02C"/>
+<path d="M24.9 13L25.15 13.95L26.1 14.2L25.15 14.45L24.9 15.4L24.65 14.45L23.7 14.2L24.65 13.95L24.9 13Z" fill="#FAD02C"/>
+</g>
+</svg>

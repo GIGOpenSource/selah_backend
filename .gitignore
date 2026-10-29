@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+certs/
+**/gcs-sa.json
+**/service-account*.json
+
+# Python / Django
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+media/
+staticfiles/
+*.log
+logs/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Docker local overrides
+docker-compose.override.yml
+*.local.yml

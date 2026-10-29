@@ -1,0 +1,476 @@
+{
+  "revision": "2026-08-09T21:40:20.265243Z",
+  "questions": [
+    {
+      "question_key": "faith_type",
+      "title": "What best describes your faith?",
+      "options": [
+        {
+          "label": "New Testament",
+          "value": "new"
+        },
+        {
+          "label": "Old Testament",
+          "value": "old"
+        },
+        {
+          "label": "Other",
+          "value": "other"
+        },
+        {
+          "label": "Learning / Exploring",
+          "value": "learning"
+        }
+      ],
+      "sort_order": 10
+    },
+    {
+      "question_key": "prayer_frequency",
+      "title": "How often do you pray?",
+      "options": [
+        {
+          "label": "Daily",
+          "value": "daily"
+        },
+        {
+          "label": "Weekly",
+          "value": "weekly"
+        },
+        {
+          "label": "Occasionally",
+          "value": "occasionally"
+        },
+        {
+          "label": "Just starting",
+          "value": "just_started"
+        }
+      ],
+      "sort_order": 20
+    },
+    {
+      "question_key": "interest_tags",
+      "title": "What themes speak to you?",
+      "options": [
+        {
+          "label": "Peace",
+          "value": "Peace"
+        },
+        {
+          "label": "Hope",
+          "value": "Hope"
+        },
+        {
+          "label": "Faith",
+          "value": "Faith"
+        },
+        {
+          "label": "Strength",
+          "value": "Strength"
+        },
+        {
+          "label": "Love",
+          "value": "Love"
+        },
+        {
+          "label": "Healing",
+          "value": "Healing"
+        },
+        {
+          "label": "Gratitude",
+          "value": "Gratitude"
+        },
+        {
+          "label": "Guidance",
+          "value": "Guidance"
+        },
+        {
+          "label": "Growth",
+          "value": "Growth"
+        },
+        {
+          "label": "Prayer",
+          "value": "Prayer"
+        },
+        {
+          "label": "Self-Worth",
+          "value": "Self-Worth"
+        },
+        {
+          "label": "Family",
+          "value": "Family"
+        },
+        {
+          "label": "Anxiety Relief",
+          "value": "Anxiety Relief"
+        },
+        {
+          "label": "Courage",
+          "value": "Courage"
+        },
+        {
+          "label": "Work & Purpose",
+          "value": "Work & Purpose"
+        },
+        {
+          "label": "Relationships",
+          "value": "Relationships"
+        }
+      ],
+      "sort_order": 30
+    },
+    {
+      "question_key": "basic_info",
+      "title": "A little about you",
+      "options": [],
+      "sort_order": 40,
+      "meta": {
+        "genders": [
+          {
+            "value": "prefer_not",
+            "label": "Prefer not to say"
+          },
+          {
+            "value": "female",
+            "label": "Female"
+          },
+          {
+            "value": "male",
+            "label": "Male"
+          },
+          {
+            "value": "non_binary",
+            "label": "Non-binary"
+          }
+        ],
+        "age_ranges": [
+          {
+            "value": "u18",
+            "label": "Under 18"
+          },
+          {
+            "value": "18-24",
+            "label": "18-24"
+          },
+          {
+            "value": "25-34",
+            "label": "25-34"
+          },
+          {
+            "value": "35-44",
+            "label": "35-44"
+          },
+          {
+            "value": "45-54",
+            "label": "45-54"
+          },
+          {
+            "value": "55+",
+            "label": "55+"
+          }
+        ]
+      }
+    },
+    {
+      "question_key": "acquisition_channel",
+      "title": "How did you hear about us?",
+      "options": [
+        {
+          "label": "TikTok",
+          "value": "tiktok"
+        },
+        {
+          "label": "Instagram",
+          "value": "instagram"
+        },
+        {
+          "label": "Friend",
+          "value": "friend"
+        },
+        {
+          "label": "Search",
+          "value": "search"
+        },
+        {
+          "label": "App Store",
+          "value": "store"
+        },
+        {
+          "label": "Other",
+          "value": "other"
+        }
+      ],
+      "sort_order": 110
+    },
+    {
+      "question_key": "emotion_status",
+      "title": "What is your relationship status?",
+      "options": [
+        {
+          "label": "Single",
+          "value": "single"
+        },
+        {
+          "label": "Dating",
+          "value": "dating"
+        },
+        {
+          "label": "Married",
+          "value": "married"
+        },
+        {
+          "label": "Prefer not to say",
+          "value": "prefer_not"
+        }
+      ],
+      "sort_order": 120
+    },
+    {
+      "question_key": "faith_transition",
+      "title": "Where are you in your faith journey?",
+      "options": [
+        {
+          "label": "Growing",
+          "value": "growing"
+        },
+        {
+          "label": "Returning",
+          "value": "returning"
+        },
+        {
+          "label": "Exploring",
+          "value": "exploring"
+        },
+        {
+          "label": "Steady",
+          "value": "steady"
+        }
+      ],
+      "sort_order": 130
+    },
+    {
+      "question_key": "scripture_familiarity",
+      "title": "How familiar are you with Scripture?",
+      "options": [
+        {
+          "label": "New to scripture",
+          "value": "new"
+        },
+        {
+          "label": "Some familiarity",
+          "value": "some"
+        },
+        {
+          "label": "Deep familiarity",
+          "value": "deep"
+        }
+      ],
+      "sort_order": 140
+    },
+    {
+      "question_key": "faith_practice",
+      "title": "How do you usually practice your faith?",
+      "options": [
+        {
+          "label": "Prayer",
+          "value": "prayer"
+        },
+        {
+          "label": "Study",
+          "value": "study"
+        },
+        {
+          "label": "Community",
+          "value": "community"
+        },
+        {
+          "label": "Other",
+          "value": "other"
+        }
+      ],
+      "sort_order": 150
+    },
+    {
+      "question_key": "closeness_to_god",
+      "title": "How close do you feel to God right now?",
+      "options": [
+        {
+          "label": "Close",
+          "value": "close"
+        },
+        {
+          "label": "Seeking",
+          "value": "seeking"
+        },
+        {
+          "label": "Distant",
+          "value": "distant"
+        }
+      ],
+      "sort_order": 160
+    },
+    {
+      "question_key": "denomination_pref",
+      "title": "Do you have a denomination preference?",
+      "options": [
+        {
+          "label": "No preference",
+          "value": "none"
+        },
+        {
+          "label": "Protestant",
+          "value": "protestant"
+        },
+        {
+          "label": "Catholic",
+          "value": "catholic"
+        },
+        {
+          "label": "Orthodox",
+          "value": "orthodox"
+        },
+        {
+          "label": "Other",
+          "value": "other"
+        }
+      ],
+      "sort_order": 170
+    },
+    {
+      "question_key": "habit_help_style",
+      "title": "How can habits best help you?",
+      "options": [
+        {
+          "label": "Reminders",
+          "value": "reminders"
+        },
+        {
+          "label": "Streaks",
+          "value": "streaks"
+        },
+        {
+          "label": "Community",
+          "value": "community"
+        },
+        {
+          "label": "Quiet reflection",
+          "value": "quiet"
+        }
+      ],
+      "sort_order": 180
+    },
+    {
+      "question_key": "relationship_with_god",
+      "title": "How would you describe your relationship with God?",
+      "options": [
+        {
+          "label": "Friend",
+          "value": "friend"
+        },
+        {
+          "label": "Father",
+          "value": "father"
+        },
+        {
+          "label": "Guide",
+          "value": "guide"
+        },
+        {
+          "label": "Mystery",
+          "value": "mystery"
+        }
+      ],
+      "sort_order": 190
+    },
+    {
+      "question_key": "recent_feeling",
+      "title": "How have you been feeling lately?",
+      "options": [
+        {
+          "label": "Peaceful",
+          "value": "peaceful"
+        },
+        {
+          "label": "Anxious",
+          "value": "anxious"
+        },
+        {
+          "label": "Grateful",
+          "value": "grateful"
+        },
+        {
+          "label": "Tired",
+          "value": "tired"
+        },
+        {
+          "label": "Hopeful",
+          "value": "hopeful"
+        }
+      ],
+      "sort_order": 200
+    },
+    {
+      "question_key": "current_struggle",
+      "title": "What are you struggling with right now?",
+      "options": [
+        {
+          "type": "multi",
+          "label": "Anxiety",
+          "value": "anxiety"
+        },
+        {
+          "type": "multi",
+          "label": "Loneliness",
+          "value": "loneliness"
+        },
+        {
+          "type": "multi",
+          "label": "Work",
+          "value": "work"
+        },
+        {
+          "type": "multi",
+          "label": "Family",
+          "value": "family"
+        },
+        {
+          "type": "multi",
+          "label": "Faith doubts",
+          "value": "faith"
+        }
+      ],
+      "sort_order": 210
+    },
+    {
+      "question_key": "current_goal",
+      "title": "What is your goal right now?",
+      "options": [
+        {
+          "type": "multi",
+          "label": "More peace",
+          "value": "peace"
+        },
+        {
+          "type": "multi",
+          "label": "Deeper prayer",
+          "value": "prayer"
+        },
+        {
+          "type": "multi",
+          "label": "Daily habits",
+          "value": "habits"
+        },
+        {
+          "type": "multi",
+          "label": "Healing",
+          "value": "healing"
+        },
+        {
+          "type": "multi",
+          "label": "Purpose",
+          "value": "purpose"
+        }
+      ],
+      "sort_order": 220
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ico/TabBar/Bible">
+<mask id="mask0_0_20" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+<rect id="Rectangle 111" width="20" height="20" fill="#030303"/>
+</mask>
+<g mask="url(#mask0_0_20)">
+<path id="Vector 80" d="M8.65685 3.99988L14.3137 9.65674L8.65685 15.3136" stroke="#212121" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</svg>

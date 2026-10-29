@@ -1,0 +1,56 @@
+{
+  "personalize_intro": {
+    "id": 7,
+    "kind": "personalize_intro",
+    "title": "Make it yours",
+    "subtitle": "A few questions help us care for you",
+    "cta_text": "Continue",
+    "image_url": "",
+    "version": 1
+  },
+  "prefs_intro": {
+    "id": 11,
+    "kind": "prefs_intro",
+    "title": "Tune reminders and sounds to your rhythm",
+    "subtitle": "",
+    "cta_text": "Continue",
+    "image_url": "",
+    "version": 2
+  },
+  "value_edu": {
+    "id": 14,
+    "kind": "value_edu",
+    "title": "VIP unlocks themes, wallpapers, and more AI moments",
+    "subtitle": "",
+    "cta_text": "Continue",
+    "image_url": "",
+    "version": 2
+  },
+  "devotion_custom": {
+    "id": 13,
+    "kind": "devotion_custom",
+    "title": "Shape a quiet space for prayer and reflection",
+    "subtitle": "",
+    "cta_text": "Continue",
+    "image_url": "",
+    "version": 2
+  },
+  "push_nudge": {
+    "id": 12,
+    "kind": "push_nudge",
+    "title": "Don't miss your daily affirmation",
+    "subtitle": "Allow notifications so Selah can gently check in",
+    "cta_text": "Go to settings",
+    "image_url": "",
+    "version": 2
+  },
+  "trial_intro": {
+    "id": 8,
+    "kind": "trial_intro",
+    "title": "Try Selah Premium",
+    "subtitle": "3 days to explore member themes",
+    "cta_text": "Continue",
+    "image_url": "",
+    "version": 1
+  }
+}

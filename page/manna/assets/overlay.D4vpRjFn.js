@@ -1,0 +1,1 @@
+import{r as e,aQ as t,bf as l}from"./index-CrtTrmCv.js";function u(u,a=360){const n=e(!1);let o=null;const i=t(u,e=>{n.value=!1,o&&(clearTimeout(o),o=null),e&&(o=setTimeout(()=>{n.value=!0,o=null},a))},{immediate:!0});return l(()=>{o&&clearTimeout(o),i()}),n}export{u};

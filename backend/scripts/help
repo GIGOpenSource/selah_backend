@@ -1,0 +1,5 @@
+ cd .\demoTemplate\apps\
+python ..\..\manage.py startapp home
+django-admin startproject myproject
+
+OpenAPI 3.0

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Get Selah</title>
+  <meta name="description" content="Grow closer to God — daily affirmations &amp; gentle devotion. Download Selah." />
+  <meta property="og:title" content="Get Selah" />
+  <meta property="og:description" content="Grow closer to God — daily affirmations &amp; gentle devotion." />
+  <meta property="og:image" content="/static/ui/themes/fy-1.jpg" />
+  <meta name="theme-color" content="#fbf8f2" />
+  <link rel="icon" href="/static/favicon-32.png" />
+  <style>
+    @font-face {
+      font-family: SelahDisplay;
+      src: url("/static/fonts/LibreBaskerville.ttf") format("truetype");
+      font-weight: 400 700;
+      font-display: swap;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      height: 100%;
+      height: 100dvh;
+    }
+    body {
+      font-family: "SF Pro Text", "PingFang SC", "Helvetica Neue", sans-serif;
+      color: #191919;
+      background: #fbf8f2;
+      background-image: linear-gradient(180deg, #b6badf 0%, #fff0d9 48%, #f5dfbc 100%);
+      overflow-x: hidden;
+    }
+    .wrap {
+      width: min(100%, 430px);
+      min-height: 100%;
+      min-height: 100dvh;
+      min-height: 100svh;
+      margin: 0 auto;
+      padding: max(12px, env(safe-area-inset-top)) 16px max(16px, env(safe-area-inset-bottom));
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 12px;
+    }
+    .poster {
+      position: relative;
+      width: min(92vw, 360px);
+      height: min(calc(100dvh - 240px), calc(min(92vw, 360px) * 908 / 574));
+      margin: 0 auto;
+      border-radius: clamp(16px, 4vw, 24px);
+      overflow: hidden;
+      box-shadow: 0 16px 48px rgba(25, 25, 25, 0.16);
+      background: #2a2a2a center / cover no-repeat;
+      flex: 0 0 auto;
+    }
+    .poster-bg {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+    .poster-veil {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.4);
+    }
+    .poster-copy {
+      position: absolute;
+      left: 8%;
+      right: 8%;
+      top: 42%;
+      transform: translateY(-50%);
+      text-align: center;
+      color: #fff;
+    }
+    .quote {
+      margin: 0;
+      font-family: SelahDisplay, "Libre Baskerville", Georgia, serif;
+      font-size: clamp(16px, 4.6vw, 26px);
+      font-weight: 700;
+      line-height: 1.35;
+      letter-spacing: -0.02em;
+      white-space: pre-wrap;
+      word-break: break-word;
+    }
+    .cite {
+      margin: 10px 0 0;
+      font-family: SelahDisplay, "Libre Baskerville", Georgia, serif;
+      font-size: clamp(12px, 3.2vw, 15px);
+      font-weight: 700;
+      opacity: 0.92;
+    }
+    .wm {
+      position: absolute;
+      left: 50%;
+      bottom: 5%;
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      height: clamp(32px, 8vw, 44px);
+      padding: 0 12px 0 6px;
+      border-radius: 12px;
+      background: rgba(255, 255, 255, 0.45);
+      backdrop-filter: blur(8px);
+    }
+    .wm img { width: clamp(22px, 6vw, 28px); height: clamp(22px, 6vw, 28px); border-radius: 8px; }
+    .wm span {
+      margin-left: 8px;
+      font-size: clamp(13px, 3.6vw, 16px);
+      font-weight: 600;
+      color: #191919;
+    }
+    .cta {
+      flex: 0 0 auto;
+      padding: 4px 4px 0;
+      text-align: center;
+    }
+    .cta h1 {
+      margin: 0;
+      font-family: SelahDisplay, "Libre Baskerville", Georgia, serif;
+      font-size: clamp(22px, 6vw, 28px);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+    .cta .sub {
+      margin: 6px 0 14px;
+      color: #5c5c5c;
+      font-size: clamp(13px, 3.6vw, 15px);
+      line-height: 1.45;
+    }
+    .stores { display: flex; flex-direction: column; }
+    .store {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      margin-top: 10px;
+      padding: 8px 16px;
+      border-radius: 14px;
+      background: #191919;
+      color: #fff;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .store:first-child { margin-top: 0; }
+    .store svg { width: 20px; height: 20px; margin-right: 10px; fill: currentColor; flex-shrink: 0; }
+    .store .lines { text-align: left; line-height: 1.15; }
+    .store .kicker { display: block; font-size: 10px; font-weight: 500; letter-spacing: 0.04em; opacity: 0.75; text-transform: uppercase; }
+    .store.off {
+      background: rgba(25, 25, 25, 0.18);
+      color: rgba(25, 25, 25, 0.45);
+      pointer-events: none;
+    }
+    .hint {
+      margin: 12px 0 0;
+      color: #8a8a8a;
+      font-size: 12px;
+    }
+    .hint[hidden],
+    .cite[hidden] { display: none; }
+    @media (max-height: 700px) {
+      .wrap { gap: 8px; padding-top: 10px; padding-bottom: 12px; }
+      .poster { height: min(calc(100dvh - 210px), calc(min(92vw, 360px) * 908 / 574)); }
+      .cta .sub { margin-bottom: 10px; }
+      .store { min-height: 44px; }
+    }
+    @media (min-width: 768px) {
+      .wrap { width: 390px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <article class="poster" id="poster">
+      <img class="poster-bg" id="posterBg" src="/static/ui/themes/fy-1.jpg" alt="" />
+      <div class="poster-veil"></div>
+      <div class="poster-copy">
+        <p class="quote" id="quote"></p>
+        <p class="cite" id="cite" hidden></p>
+      </div>
+      <div class="wm">
+        <img src="/static/ui/share/logo-mark.png" alt="" />
+        <span id="wmBrand">Selah</span>
+      </div>
+    </article>
+    <section class="cta">
+      <h1 id="title">Get Selah</h1>
+      <p class="sub" id="sub">A quiet pause, every day. Download the app.</p>
+      <div class="stores">
+        <a class="store off" id="btnIos" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.3c0-2.3 1.9-3.4 2-3.5-1.1-1.6-2.8-1.8-3.4-1.8-1.4-.1-2.8.9-3.5.9s-1.8-.8-3-.8c-1.5 0-3 .9-3.8 2.3-1.6 2.8-.4 7 1.2 9.3.8 1.1 1.7 2.4 3 2.3 1.2 0 1.6-.7 3-.7s1.8.7 3 .7 2-.1 2.9-2.3c1.1-1.5 1.5-2.9 1.5-3 0 0-2.9-1.1-2.9-4.4zM14.7 5.5c.7-.8 1.1-1.9 1-3-.9.1-2.1.6-2.8 1.4-.6.7-1.2 1.9-1 3 1 .1 2.1-.5 2.8-1.4z"/></svg>
+          <span class="lines"><span class="kicker">Download on the</span>App Store</span>
+        </a>
+        <a class="store off" id="btnPlay" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 2.3c-.4.4-.6 1.1-.6 2v15.4c0 .9.2 1.6.6 2l.1.1 10.7-10.8L3.7 2.3h-.1zm12 7.3-2.8 2.8 2.8 2.8 3.3-1.9c1-.6 1-1.5 0-2.1l-3.3-1.6zM13.6 12.9l-2.9 2.9 6.5 3.8c.8.4 1.4.2 1.8-.2l-5.4-6.5zm-2.9-2.9 2.9 2.9 5.4-6.4c-.4-.5-1-.7-1.8-.2L10.7 10z"/></svg>
+          <span class="lines"><span class="kicker">Get it on</span>Google Play</span>
+        </a>
+      </div>
+      <p class="hint" id="hint" hidden>Store links are not published yet.</p>
+    </section>
+  </div>
+  <script>
+    var params = new URLSearchParams(location.search || '')
+    var appKey = params.get('app_key') || 'selah'
+    var btnIos = document.getElementById('btnIos')
+    var btnPlay = document.getElementById('btnPlay')
+    var hint = document.getElementById('hint')
+    var posterEl = document.getElementById('poster')
+    var posterBg = document.getElementById('posterBg')
+    var quoteEl = document.getElementById('quote')
+    var citeEl = document.getElementById('cite')
+    var FALLBACK_BG = '/static/ui/themes/fy-1.jpg'
+
+    function safeBg(raw) {
+      var u = String(raw || '').trim()
+      if (!u) return ''
+      try { u = decodeURIComponent(u) } catch (e) {}
+      if (u.indexOf('/static/') >= 0) {
+        u = u.slice(u.indexOf('/static/'))
+      }
+      if (u.charAt(0) === '/' && u.charAt(1) !== '/') return u
+      try {
+        var parsed = new URL(u, location.origin)
+        if (parsed.protocol === 'http:' || parsed.protocol === 'https:') return parsed.href
+      } catch (e) {}
+      return ''
+    }
+
+    function paintBg(src) {
+      var url = src || FALLBACK_BG
+      posterBg.src = url
+      if (posterEl) posterEl.style.backgroundImage = 'url("' + url.replace(/"/g, '') + '")'
+    }
+
+    function setQuote(quote, cite) {
+      var q = String(quote || '').trim()
+      var c = String(cite || '').trim()
+      if (!q) return false
+      quoteEl.textContent = q
+      if (q.length > 160) quoteEl.style.fontSize = 'clamp(14px, 3.8vw, 18px)'
+      else if (q.length > 90) quoteEl.style.fontSize = 'clamp(16px, 4.2vw, 22px)'
+      else quoteEl.style.fontSize = ''
+      if (c) {
+        citeEl.textContent = c
+        citeEl.hidden = false
+      } else {
+        citeEl.textContent = ''
+        citeEl.hidden = true
+      }
+      return true
+    }
+
+    function applyPoster() {
+      var bg = safeBg(params.get('bg') || params.get('theme'))
+      paintBg(bg || FALLBACK_BG)
+      posterBg.onerror = function () { paintBg(FALLBACK_BG) }
+      var quote = String(params.get('text') || params.get('q') || '').trim()
+      var cite = String(params.get('cite') || '').trim()
+      if (!setQuote(quote, cite)) {
+        quoteEl.textContent = 'Grow closer to God'
+        citeEl.textContent = 'daily affirmations & gentle devotion'
+        citeEl.hidden = false
+      }
+      var og = document.querySelector('meta[property="og:image"]')
+      if (og) og.setAttribute('content', posterBg.src)
+    }
+
+    function loadQuoteById() {
+      var id = String(params.get('id') || '').trim()
+      if (!id || params.get('text') || params.get('q')) return
+      fetch('/api/content/quote/?id=' + encodeURIComponent(id), {
+        headers: { 'X-App-Key': appKey }
+      }).then(function (r) { return r.json() }).then(function (data) {
+        var row = (data && data.results) || data || {}
+        var quote = String(row.content || row.text || '').trim()
+        var cite = String(row.source_ref || '').trim()
+        if (cite && cite.charAt(0) !== '-') cite = '-' + cite
+        setQuote(quote, cite)
+      }).catch(function () {})
+    }
+
+    function bindStore(el, url) {
+      var href = String(url || '').trim()
+      if (!href) {
+        el.removeAttribute('href')
+        el.classList.add('off')
+        return false
+      }
+      el.href = href
+      el.classList.remove('off')
+      return true
+    }
+
+    function applyBrand(name) {
+      var brand = String(name || 'Selah').trim() || 'Selah'
+      document.title = 'Get ' + brand
+      document.getElementById('title').textContent = 'Get ' + brand
+      document.getElementById('wmBrand').textContent = brand
+    }
+
+    applyPoster()
+    loadQuoteById()
+    fetch('/api/content/app-config/?app_key=' + encodeURIComponent(appKey), {
+      headers: { 'X-App-Key': appKey }
+    }).then(function (r) { return r.json() }).then(function (data) {
+      var cfg = (data && data.results) || data || {}
+      applyBrand(cfg.brand_name)
+      var iosOk = bindStore(btnIos, cfg.url_app_store)
+      var playOk = bindStore(btnPlay, cfg.url_play_store)
+      hint.hidden = iosOk || playOk
+    }).catch(function () {
+      hint.hidden = false
+    })
+  </script>
+</body>
+</html>

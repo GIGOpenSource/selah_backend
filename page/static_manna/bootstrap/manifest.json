@@ -1,0 +1,21 @@
+{
+  "exported_at": "2026-08-09T21:42:35.828495Z",
+  "app": "manna",
+  "scope": {
+    "language": "en",
+    "platform": "",
+    "app_key": "manna"
+  },
+  "app_config_revision": "2026-08-09T21:39:52.404095Z",
+  "welcome_version": 2,
+  "onboarding_revision": "2026-08-09T21:40:20.265243Z",
+  "onboarding_count": 4,
+  "interstitial_versions": {
+    "personalize_intro": 2,
+    "prefs_intro": 2,
+    "value_edu": 2,
+    "devotion_custom": 2,
+    "push_nudge": 2,
+    "trial_intro": 2
+  }
+}

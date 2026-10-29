@@ -1,0 +1,12 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="ico/TabBar/quiz" opacity="0.5">
+<mask id="mask0_0_44" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32">
+<rect id="Rectangle 111" width="32" height="32" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_0_44)">
+<path id="Rectangle 112" d="M9.14274 5.32142H22.8576C24.9679 5.32165 26.6788 7.0324 26.6789 9.14271V22.8576C26.6786 24.9677 24.9678 26.6786 22.8576 26.6788H9.14274C7.03243 26.6788 5.32168 24.9678 5.32145 22.8576V9.14271C5.32153 7.03231 7.03234 5.3215 9.14274 5.32142Z" stroke="white" stroke-width="1.5"/>
+<path id="Vector 1" d="M12.5715 14.2283L14.9958 16.6526L20.6527 10.9958" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+<path id="Vector 2" d="M11.4285 20.5714H20.5714" stroke="white" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+</g>
+</svg>

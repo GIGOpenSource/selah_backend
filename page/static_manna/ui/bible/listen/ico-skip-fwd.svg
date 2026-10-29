@@ -1,0 +1,11 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group 12">
+<mask id="mask0_0_66" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="32" height="32">
+<rect id="Rectangle 170" x="1.43051e-06" y="1.31134e-06" width="32" height="32" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_0_66)">
+<path id="Polygon 1" d="M21.2887 12.1707C23.8766 13.7246 23.8766 17.4754 21.2887 19.0293L10.5591 25.4718C7.89302 27.0727 4.5 25.1523 4.5 22.0425L4.5 9.15745C4.5 6.04769 7.89303 4.12733 10.5591 5.72816L21.2887 12.1707Z" fill="white"/>
+<rect id="Rectangle 166" x="22" y="6" width="4" height="20" rx="2" fill="white"/>
+</g>
+</g>
+</svg>

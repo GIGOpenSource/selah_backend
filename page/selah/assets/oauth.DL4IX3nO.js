@@ -1,0 +1,1 @@
+import{f as s,cb as e,J as a,cc as n,g as t,cd as c,c6 as i}from"./index-Drt4xX5z.js";function r(n){const t=`sandbox_oauth_id_${n}`;let c=s(t);if(!c){c=`${n}_sandbox_${e().replace(/-/g,"").slice(0,12)}`,a(t,c)}return String(c)}function o(){return{device_id:e(),timezone:c(),system_lang:t(),register_country:n(),app_key:i}}export{o as b,r as g};

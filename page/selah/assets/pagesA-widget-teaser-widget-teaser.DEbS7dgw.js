@@ -1,0 +1,1 @@
+import{aB as o,aM as s,c as e,l as a,j as i}from"./index-Drt4xX5z.js";const t={__name:"widget-teaser",setup:t=>(o(o=>{const e="lock"===(null==o?void 0:o.kind)?"lock":"home",a="profile"===(null==o?void 0:o.from)?"profile":"",i=[`kind=${e}`];a&&i.push(`from=${a}`),s({url:`/pagesA/widgets/widgets?${i.join("&")}`})}),(o,s)=>{const t=i;return a(),e(t)})};export{t as default};
